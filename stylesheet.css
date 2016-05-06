@@ -1,11 +1,13 @@
-h1{
-   color:red;
+#ab {
+  font-style: italic;
+  font-size: 50px;
+  color: #ff6680
 }
 
-img{
-   width:250px;
-}
-h2{
-   width:50%;
-   border:20px solid black;
+#bc {
+  width: 75%;
+  border:2px solid black;
+  background: #9999ff;
+  border-radius: 6px;
+  font-size: 23px
 }
