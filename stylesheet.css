@@ -1,13 +1,36 @@
+ul {
+  display: block;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  width: 100%;
+  background: #4dff4d;
+  top: 0;
+  left: 20;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
 #ab {
   font-style: italic;
   font-size: 50px;
-  color: #ff6680
+  color: #ff6680;
+  width: 100%;
 }
 
-#bc {
-  width: 75%;
-  border:2px solid black;
+.bc {
+  width:60%;
+  border: 2px solid black;
   background: #9999ff;
   border-radius: 6px;
-  font-size: 23px
+  font-size: 23px;
+  display: inline-block;
+}
+
+#picture_of_me{
+  display: inline-block;
+  position: fixed
+  
 }
