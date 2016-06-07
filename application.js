@@ -1,4 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function(){
+  $("#music").hide();
+  $("#food").hide();
+  $("#movies").hide();
+  $("#tv-shows").hide();
+  $("#books").hide();
   $("#music_button").click(function() {
     $(".content").css("display", "none");
     $(".music").css("display", "inline-block");
