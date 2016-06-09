@@ -4,7 +4,7 @@ $(document).ready(function() {
             var guess =
               $("input[name=user_guess]").val();
             if (guess == random_num) {
-              ("You Got It!!")
+              alert("You Got It!!")
               $("#response").html("<p>You Got It!!</p>");
             } else if (guess < random_num) {
                 alert("You're close. Guess higher.")
