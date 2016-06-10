@@ -4,6 +4,7 @@ $(document).ready(function(){
   $("#movies").hide();
   $("#tv-shows").hide();
   $("#books").hide();
+  $(".bc").css("display", "inline-block");
   $("#music_button").click(function() {
     $(".content").css("display", "none");
     $(".music").css("display", "inline-block");
