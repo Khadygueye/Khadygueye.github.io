@@ -12,5 +12,5 @@ form {
 
 #go_back_to_home_page{
   font-size: 25px;
-  position:inline-block;
+  display:inline-block;
 }
