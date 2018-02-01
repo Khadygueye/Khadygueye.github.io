@@ -1,23 +1,23 @@
 $(document).ready(function(){
-  $("#music").hide();
-  $("#food").hide();
-  $("#movies").hide();
-  $("#tv-shows").hide();
-  $("#books").hide();
+  $("#Fiction").hide();
+  $("#NonFiction").hide();
+  $("#AutoBiography").hide();
+  $("#SciFi").hide();
+  $("#Poetry").hide();
   $(".bc").css("display", "inline-block");
-  $("#music_button").click(function() {
+  $("#Fiction_button").click(function() {
     $(".content").css("display", "none");
-    $(".music").css("display", "inline-block");
+    $(".Fiction").css("display", "inline-block");
   });
-  $("#movies_button").click(function() {
+  $("#AutoBio_button").click(function() {
     $(".content").css("display", "none");
-    $(".movies").css("display", "inline-block");
+    $(".AutoBigraphy").css("display", "inline-block");
   });
-  $("#food_button").click(function() {
+  $("#SciFi_button").click(function() {
     $(".content").css("display", "none");
-    $(".food").css("display", "inline-block");
+    $(".SciFi").css("display", "inline-block");
   });
-   $("#books_button").click(function() {
+   $("#Poetry").click(function() {
     $(".content").css("display", "none");
     $(".books").css("display", "inline-block");
   });
